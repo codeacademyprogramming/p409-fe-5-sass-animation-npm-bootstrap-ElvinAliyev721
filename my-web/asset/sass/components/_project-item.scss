@@ -1,0 +1,56 @@
+.project-item{
+    img{
+        height: 300px;
+        border-radius: 10px;
+    }
+}
+.icons i{
+    padding: 20px;
+    margin-left: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white !important;
+    transition: .3s;
+}
+.icons i:hover{
+    background: white !important;
+    color: black !important;
+    cursor: pointer;
+}
+.free{
+    margin-top: -21px !important;
+}
+.copywrite{
+    background-color: #1A252F;
+}
+.master{
+    padding-top: 90px !important;
+    padding-bottom: 50px;
+}
+
+.card-section{
+    position: relative;
+}
+.card-flip{
+    position: absolute;
+    width: 415.36px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: $secondary;
+    top: 0;
+    left: 15px;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 0;
+    transition: .3s;
+}
+.card-flip i{
+    font-size: 70px;
+}
+.card-section:hover{
+    .card-flip{
+        opacity: .9;
+    }
+}

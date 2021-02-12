@@ -1,0 +1,9 @@
+@mixin name {
+    color:white !important;
+    font-weight: bold i !important;
+    transition: .2s;
+
+    &:hover{
+        color:$secondary !important;
+    }
+}
